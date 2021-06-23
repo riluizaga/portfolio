@@ -75,19 +75,3 @@ const sr = ScrollReveal({
     duration: 1800,
     reset: true
 });
-
-/* = SCROLL HOME = */
-sr.reveal('.home-text',{delay:100, origin:'top'});
-sr.reveal('.home-img',{delay: 400, origin: 'bottom'});
-
-/* = SCROLL ABOUT = */
-sr.reveal('.section-title',{origin:'bottom'});
-sr.reveal('.about-info',{delay: 300, origin: 'left'});
-sr.reveal('.about-img',{delay: 300, origin: 'right'});
-
-/* = SCROLL SKILL = */
-sr.reveal('.skill-type',{interval: 150, origin:'top'});
-sr.reveal('.tab-item',{interval: 150, origin:'top'});
-
-/* = SCROLL PROJECTS = */
-sr.reveal('.project-type',{interval: 150, origin:'top'});
